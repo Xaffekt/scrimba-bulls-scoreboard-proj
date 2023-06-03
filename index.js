@@ -40,6 +40,8 @@ function addScore(button)
 
 function reset()
 {
+    homeScoreTotal = 0;
+    guestScoreTotal = 0;
     homeScore.textContent = 0;
     guestScore.textContent = 0;
 }
